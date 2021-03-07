@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #efe5e5;
+}
+
+.container{
+
+    max-width: 800px;
+    background-color:honeydew;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.my-image{
+    height: 100px;
+    width: 80px;
+    border: black 1px solid;
+    border-radius: 50%;
+    float: left;
+}
+
+.mybio{
+    float: left;
+    padding: 20px;
+}
+
+
+
+.my-contact{
+    float: right;
+    margin-top: 10px;
+}
+
+.my-contact a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.my-contact a:hover{
+    text-decoration: underline;
+    color: #fb5200;
+}
+
+.clear{
+    clear: both;
+}
+
+#hr1{
+   border: 3px solid black;
+   width: 100%;
+   margin: 20px auto;
+   border-bottom: none;
+
+}
+.left{
+    width: 30%;
+    float: left;
+
+}
+.right{
+    width: 70%;
+    float: left;
+}
+hr{
+    border: 1px solid black;
+    margin: 20px auto;
+}
+
+.ssc{
+    width: 45%;
+    float: left;
+}
+
+.diploma{
+    width: 45%;
+    float: right;
+}
+
+.foot{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.foot a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+.foot p{
+    color: wheat;
+    margin-top: 10px;
+}
